@@ -1,0 +1,13 @@
+.page {
+  border: 1px solid black;
+  position: relative;
+}
+
+.image {
+  display: block;
+  user-select: none;
+}
+
+.fieldBox {
+  position: absolute;
+}

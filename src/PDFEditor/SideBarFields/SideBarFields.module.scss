@@ -1,0 +1,26 @@
+.fieldsWrapper {
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  border-right: 1px solid black;
+}
+
+.fields {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1rem;
+  flex: 1;
+}
+
+.payloadWrapper {
+  height: 300px;
+  font-size: 9px;
+  overflow: hidden;
+  flex-direction: column;
+  display: flex;
+}
+
+.payload {
+  overflow: auto;
+}
