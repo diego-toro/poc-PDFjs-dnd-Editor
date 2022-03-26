@@ -8,16 +8,19 @@ const DEFAULT_FIELDS = {
   hourly: [
     {
       id: '001',
+      type: 'hourly',
       data: 'user.first_name',
     },
     {
       id: '002',
+      type: 'hourly',
       data: 'user.last_name',
     },
   ],
   docusign: [
     {
       id: '101',
+      type: 'docusign',
       data: 'signature',
     },
   ],
